@@ -1,4 +1,4 @@
-package com.example.jumptospringbootstudy;
+package com.example.jumptospringbootstudy.Lombok;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
