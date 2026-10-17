@@ -1,6 +1,5 @@
-package com.example.jumptospringbootstudy.Repository;
+package com.example.jumptospringbootstudy.question;
 
-import com.example.jumptospringbootstudy.Lombok.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

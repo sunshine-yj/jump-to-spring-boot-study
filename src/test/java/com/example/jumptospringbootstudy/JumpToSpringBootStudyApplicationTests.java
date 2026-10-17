@@ -1,15 +1,14 @@
 package com.example.jumptospringbootstudy;
 
-import com.example.jumptospringbootstudy.Lombok.Answer;
-import com.example.jumptospringbootstudy.Lombok.Question;
-import com.example.jumptospringbootstudy.Repository.AnswerRepository;
-import com.example.jumptospringbootstudy.Repository.QuestionRepository;
+import com.example.jumptospringbootstudy.answer.Answer;
+import com.example.jumptospringbootstudy.question.Question;
+import com.example.jumptospringbootstudy.answer.AnswerRepository;
+import com.example.jumptospringbootstudy.question.QuestionRepository;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 

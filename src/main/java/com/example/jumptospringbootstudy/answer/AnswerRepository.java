@@ -1,6 +1,5 @@
-package com.example.jumptospringbootstudy.Repository;
+package com.example.jumptospringbootstudy.answer;
 
-import com.example.jumptospringbootstudy.Lombok.Answer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AnswerRepository extends JpaRepository<Answer, Integer> {

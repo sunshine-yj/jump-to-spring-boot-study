@@ -1,5 +1,6 @@
-package com.example.jumptospringbootstudy.Lombok;
+package com.example.jumptospringbootstudy.question;
 
+import com.example.jumptospringbootstudy.answer.Answer;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
